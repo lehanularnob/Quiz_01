@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: plum;
+    border: none;
+
+}
+
+.content {
+    display: flex;
+    align-items:center;
+    padding: 70px;
+    background-color: #fff;
+    margin:none ;
+}
+
+.left {
+    width: 20%;
+    padding: 20px;
+    text-align: left;
+}
+
+.right {
+    width: 75%;
+    text-align: right;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: purple;
+}
+h2 {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: purple;
+}
+
+p {
+    font-size: 12px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(194, 46, 181);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #555; /* Change button color on hover */
+}
+
+img .right {
+    max-width: 80%;
+}
+img .right {
+    max-width: 50%;
+}
